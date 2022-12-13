@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Harindu Medawatta">
+        <meta name="description" content="This page contains all the things that I am learning how to create as I learn HTML.">
+        <title> My First Web Page</title>
+        <link rel="icon" href="img/html5.png" type="image/x-icon">
+        <link rel="stylesheet" href="css/main.css" type="text/css">
+    </head>
+
+    <body>
+        <header>
+            <h1> Student Profile.</h1>
+
+        
+            <nav aria-label="primary-navigation">
+                <ul>
+                    <li>
+                        <a href="#favourites">My Favours</a>
+                    </li>
+                    <li>
+                        <a href="#dislikes">Unlikes</a>
+                    </li>
+                    <li>
+                        <a href="#contact">contact Me</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <hr>
+            <h2> My Name is Harindu Medawatta</h2>
+
+            <h3>Biography</h3>
+
+            <p>
+                went to Ananda College, Colombo 10.<br>
+                IT Undergraduate at <abbr title="Sri lanka Institute of Information Technology"><a href="https://www.sliit.lk" target="_blank">SLIIT</a></abbr><br>
+                23 years old.<br>
+                <address>
+                    40/1B Makubura,<br>
+                    Kottawa,<br>
+                    Sri lanka.
+                </address>
+            </p>
+            <br>
+            <table>
+                    <caption>My Daily Schedule</caption>
+                    <thead>
+                        <tr>
+                            <th>&nbsp;</th>
+                            <th scope="col">Time</th>
+                            <th scope="col">Activity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th rowspan="2" scope="row">Morning</th>
+                            <td>
+                                <time datetime="06:00">6am</time> - <time datetime="08:00">8am</time>
+                            </td>
+                            <td>Morning routine & Breakfast</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <time datetime="08:00">8am</time> - <time datetime="11:00">11am</time>
+                            </td>
+                            <td>Learning Code</td>
+                        </tr>
+                        <tr>
+                            <th rowspan="2" scope="row">Afternoon</th>
+                            <td>
+                                <time datetime="11:00">11am</time> - <time datetime="12:00">12pm</time>
+                            </td>
+                            <td>Lunch Time</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <time datetime="12:00">12pm</time> - <time datetime="16:00">4pm</time>
+                            </td>
+                            <td>Code Tutes & Lectures</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Evening</th>
+                            <td>
+                                <time datetime="16:00">4pm</time> - <time datetime="18:00">6pm</time>
+                            </td>
+                            <td>Pace walk & Workout Session</td>
+                        </tr>
+                        <tr>
+                            <th rowspan="2" scope="row">Night</th>
+                            <td rowspan="2">All other Times</td>
+                            <td>Free Time</td>
+                        </tr>
+                        <tr>
+                            <td>Sleep</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3"> My Freetime weekly schedule.</td>
+                        </tr>
+                    </tfoot>
+            </table>
+
+        <hr>
+        <main>
+        <article id="favourites">
+
+                <h3>Places I Liked to visit.</h3>
+            <ol>
+                <li>Kelowna, <abbr title="British Columbia">Bc.</abbr><br></li>
+                
+                <li>Munich, Germany.<br></li>
+                
+                <li>Glasgow, Scotland.<br></li>
+                
+                <li>Amsterdam, Netherlands.<br></li>
+                
+            </ol>
+
+            <figure>
+                <img src="img/kelowna_bc.jpg" alt="Kelowna.Bc" title="Kelowna.Bc" width="627" height="418" loading="lazy">
+                <figcaption>
+                    <em>Moraine lake.Bc</em>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="img/munich_germany.jpg" alt="Munich" title="Munich" width="627" height="418" loading="lazy">
+                <figcaption>
+                    <em>Villege in Munich</em>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="img/glasgow.jpg" alt="Glasgow" title="Glasgow" width="627" height="418" loading="lazy">
+                <figcaption>
+                    <em>Glasgow,Scotland</em>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="img/amsterdam.jpg" alt="Amsterdam" title="Amsterdam" width="627" height="418" loading="lazy">
+                <figcaption>
+                    <em>Amsterdam,Netherlands</em>
+                </figcaption>
+            </figure>
+
+                <h3>Things I Like to eat</h3>
+         <ul>
+            <li> Pasta.<br></li>
+            <li>Gnocchi.<br></li>
+            <li> Garlicky fried rice with crisp pork.<br></li>
+            <li>Fish tacos with avocado salsa.<br></li>
+            <li><em>Sri Lankan</em> salmon curry with rice.<br></li>
+            <li>Sweet chilli salmon with edamame.<br></li>
+            <li>Pizza.<br></li>
+            </ul>
+        </article>
+
+        <hr>
+
+        <article id="dislikes">
+
+         <h3>Places I Don't like to visit.</h3>
+            <dl>
+                <dt>Jaffna, Sri Lanka.</dt>
+                    <dd>Mostly because of the Climate And the Weather conditions.<br>
+                    I realy don't like  too much warmer conditions.</dd>
+
+                <dt>India.</dt>
+                    <dd>I do love there food culture but I am not a fan of there livestyle.<br>
+                    I also don't like warm weather conditions in India.</dd>
+
+                <dt>South America.</dt>
+                    <dd>I don't like Samba. lol</dd>
+
+                <dt>Middle East</dt>
+                    <dd>Mainly because of Hot climate and the Muslim culture.<br>
+                    I realy don't like there lifestyle. people don't have the freedom.</dd>
+            </dl>
+        </article>
+        <hr>
+            <article id="contact">
+                <h2>contact me</h2>
+                <p>I'd really like to hear from you!</p>
+
+                <form action="https://httpbin.org/get" method="get">
+                    <fieldset>
+                            <legend>Personal info</legend>
+                        <p>
+                            <label for="firstName">First Name:</label>
+                            <input type="text" name="firstName" id="firstName" placeholder="James" autocomplete="on" required>
+                        </p>
+                        <p>
+                            <label for="lastName">Last Name:</label>
+                            <input type="text" name="lastName" id="lastName" placeholder="Maddison" autocomplete="on" required>
+                        </p>
+                        <p>
+                            <label for="password">Password:</label>
+                            <input type="password" name="password" id="password" placeholder="your secret" required>
+                        </p>
+                        <p>
+                            <label for="phone">Phone:</label>
+                            <input type="tel" name="phone" id="phone" placeholder="0000000000" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+                        </p>
+                        <p>
+                            <label for="decade"> Favourite decade:</label>
+                            <input type="number" name="decade" id="decade" min="1950" max="2020" step="10" value="1980">
+                        </p>
+                        <p>
+                            <label for="coffee">Favourite Coffee:</label>
+                            <select name="coffee" id="coffee">
+                                <optgroup label="Coffees">
+                                    <option value="regular coffee">Regular Coffee</option>
+                                    <option value="iced coffee">Iced Coffee</option>
+                                </optgroup>
+                                <optgroup label="Espresso Drinks">
+                                    <option value="latte">Caffè latte</option>
+                                    <option value="cappuccino">Cappuccino</option>
+                                    <option value="cortado">Cortado</option>
+                                    <option value="americano">Caffè Americano</option>
+                                </optgroup>
+                                <option value="other">Other</option>
+                            </select>
+                        </p>
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend>Gender Type</legend>
+                        <p>
+                            <input type="radio" name="gender" id="male" value="male">
+                            <label for="male">Male</label>
+                        </p>
+                        <p>
+                            <input type="radio" name="gender" id="female" value="female">
+                            <label for="female">Female</label>
+                        </p>
+                        <p>
+                            <input type="radio" name="gender" id="lgbt" value="lgbt">
+                            <label for="lgbt">LGBT & Others</label>
+                        </p>
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend>Choose your pet</legend>
+                        <p>
+                            <input type="checkbox" name="pets" id="dog" value="dog">
+                            <label for="dog">Dog</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="pets" id="cat" value="cat">
+                            <label for="cat">Cat</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="pets" id="rabbit" value="rabbit">
+                            <label for="rabbit">Bunny</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="pets" id="otherPet" value="otherPet">
+                            <label for="otherPet">Other</label>
+                        </p>
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend>Feedback</legend>
+                        <label for="message">Your Message:</label>
+                        <br>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message..."></textarea>
+                    </fieldset>
+                    <br>
+                    <button type="submit">Submit</button>
+                    <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+                    <button type="reset">Reset</button>
+                </form>
+            </article>
+    </main>
+        <footer>
+            <p>
+                <hr>
+                &lt;&lt;&lt; &copy; <a href="about.html">Harindu Medawatta</a>&gt;&gt;&gt;<br>
+                <a href="#">Back to Top</a>
+            </p>
+
+        </footer>
+        
+    </body>
+
+</html>
